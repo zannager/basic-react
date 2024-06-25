@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import Counter from './components/Counter';
 import Resume from './components/Resume';
 import FuncitonEvent from './components/FunctionEvent';
+import ClassEvent from './components/ClassEvent';
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       {/* <Hello />
       <Message messageContent="this is a message from props"/> */}
       {/* <Profile name="greg" lastname="norman"/> */}
-      {/* <Counter /> */}
+      <Counter />
       {/* <Resume name="Greg"/> */}
       <FuncitonEvent />
+      <ClassEvent />
     </div>
   );
 }
