@@ -5,6 +5,7 @@ import Message from './components/Message';
 import Profile from './components/Profile';
 import Counter from './components/Counter';
 import Resume from './components/Resume';
+import FuncitonEvent from './components/FunctionEvent';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Message messageContent="this is a message from props"/> */}
       {/* <Profile name="greg" lastname="norman"/> */}
       {/* <Counter /> */}
-      <Resume name="Greg"/>
+      {/* <Resume name="Greg"/> */}
+      <FuncitonEvent />
     </div>
   );
 }
